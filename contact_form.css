@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+h1,h3{
+   color: white;
+    word-spacing: none;
+    text-decoration: none;
+
+    outline-color: invert;
+    margin: 0px;
+    border: 0px;
+    padding: 8px;
+    padding: 2px 20px;
+
+}
+.special{
+    background-color: rgba(132, 195, 111, 0.878);
+    border-radius: 2p x;
+}
+input[type="text"],
+input[type="email"],
+input[type="message"],
+input[type="subject"],
+select,
+textarea{
+    width: 100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+
+    border-radius: 4px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+input[type="submit"]{
+    background-color: rgb(74, 189, 72);
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

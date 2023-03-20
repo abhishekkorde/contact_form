@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Form</title>
+    <link rel="stylesheet" href="contact_form.css">
+</head>
+<body>
+    <form action="index.php" method="post">
+    <h1 class="special">Contact Form</h1>
+    <h3 class="special">Please fill the texts in the fields.</h3>
+    <hr>
+    <div class="container">
+    <p>Your Name:<input type="text" name="name" id="name"placeholder="Your Full Name" required></p>
+    <p>Your Email:<input type="email" name="email" id="email"placeholder="Valid Email Address" required></p>
+    <p>Message:<textarea type="message" name="message" id="message" cols="100" rows="8" placeholder="Your Message to US" ></textarea></p>
+    <p>Subject:<input type="subject" id="subject" name="subject" placeholder="Job Inquiry"></p>
+    <input type="submit" value="Send">
+</form>
+</div>
+</body>
+</html>
